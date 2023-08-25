@@ -1,0 +1,44 @@
+.category {
+    width: 360px;
+height: 450px;   
+}
+
+.category_header {
+    h3 {
+        font-family: Jost;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #8C8C8C;
+    }
+}
+
+.category_items {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card_btn {
+    width: 138px;
+    height: 36px;
+    background-color: #fff;
+    color: #FF868E;
+    border-radius: 10px;
+    border: none;
+}
+
+.category_cards {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.category_item {
+    display: flex;
+    flex-direction: column;
+}

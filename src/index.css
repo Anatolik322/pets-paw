@@ -5,13 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF99;
 }
 
-body, html, #root{
+body, html, #root, .App{
   height: 100%;
   width: 100%;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.rigth{
+  height: 100%;
+  width: 100%;
+}
+
+.rigt_bcg{
+  width: 50%;
+height: 840px;
+
+border-radius: 20px;
+
+background-color: #FBE0DC;
+}
+
+.App{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
 }
