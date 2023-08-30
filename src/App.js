@@ -2,7 +2,12 @@ import React from "react";
 import Header from "./components/header/Header";
 import Category from "./components/category/Category";
 import Girl from "./img/girl-and-pet.png"
+import { useGetByLimitQuery } from "./services/catApi";
+
 function App() {
+  const {data, isSuccess, error, isError} = useGetByLimitQuery();
+  isError && console.log(error)
+  isSuccess && console.log(data)
   return (
     <div className="App">
      <Category></Category>
